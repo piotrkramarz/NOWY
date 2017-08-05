@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+.top-bar {
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    background: white;
+    height: 150px;
+    z-index: 5;
+}
+
+body{
+    height: 1500px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+
+    margin-top: 150px;
+}
+
+.hero {
+    background-image: url("../images/mustang-car-background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1075px;
+    position: relative;
+    text-align: center;
+}
+
+.hero-content {
+    top: 200px;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    color:white;
+}
+
+.section h2, .section-dark h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.section h2{
+    color: #292929;
+}
+
+.section-dark h2{
+    color: #fff;
+    background: darkgrey;
+}

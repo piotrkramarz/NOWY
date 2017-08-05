@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Piotr K.">
+    <link rel="stylesheet" href="assets/styles/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+    <title>zadanie 1</title>
+</head>
+<body>
+<header class="top-bar">
+    <div class="container">
+        <img src="assets/images/cars_logo.jpg" alt="logo">
+        <nav class="navigation">
+            <ul>
+                <li><a href="#about">Company</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#order">Order car</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.google.pl/">google</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="hero">hero
+        <div class="hero-content">
+            <h1 class="hero-text">buy our new car!</h1>
+            <button class="call-action-btn">Read more!</button>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <h2>Lorem ipsum.</h2>
+        <div class="container benefits-container">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="benefit">
+                <i class="fa fa-rocket"></i>
+                <p>szybko</p>
+            </div>
+            <div class="benefit">
+                <i class="fa fa-money"></i>
+                <p>tanio</p>
+            </div>
+            <div class="benefit">
+                <i class="fa fa-wrench"></i>
+                <p>sprawnie</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-dark" id="cars">
+        <h2>Lorem ipsum.</h2>
+        <div>
+            <p>Lorem <cite>ipsum dolor.</cite></p>
+            <table>
+                <thead>
+                <tr>
+                    <th>name</th>
+                    <th>engine</th>
+                    <th>year</th>
+                    <th colspan="2">price 4</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>mercedes</td>
+                    <td>2.0</td>
+                    <td>1990</td>
+                    <td>10 000</td>
+                    <td>12 000</td>
+                </tr>
+                <tr>
+                    <td>volkswagen</td>
+                    <td>1.9</td>
+                    <td>1991</td>
+                    <td>5 000</td>
+                    <td>7 000</td>
+                </tr>
+                <tr>
+                    <td>bmw</td>
+                    <td>3.0</td>
+                    <td>2002</td>
+                    <td>21 000</td>
+                    <td>23 000</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="section" id="order">
+        <h2>formularz</h2>
+        <div class="container text.center">
+            <form>
+                <label for="model">car model</label>
+                <input id="model" type="text" placeholder="model">
+                <select>
+                    <option value="volkswagen">vw</option>
+                    <option value="bmw">bmw</option>
+                    <option value="mercedes">mercedes</option>
+                </select>
+                <label for="power">estimate power</label>
+                <input id="power" type="number" placeholder="000">
+                <p>wersja</p>
+                <label for="standard">standard</label>
+                <input name="version" id="standard" type="radio" value="standard">
+                <label for="elegance">elegance</label>
+                <input name="version" id="elegance" type="radio" value="elegance">
+                <label for="avangard">avangard</label>
+                <input name="version" id="avangard" type="radio" value="avangard">
+                <label for="agreement">potwierdź</label>
+                <input type="checkbox" id="agreement">
+                <button type="submit">wyślij</button>
+            </form>
+        </div>
+    </section>
+    <section class="section-dark" id="contact">contact</section>
+</main>
+<hr>
+<footer>
+    <section>
+        <address>ul. Kartuska 55, 80-280 Gdańsk <br> tel. 58 666 55 22</address>
+    </section>
+    <section>
+        <time datetime="2017-07-15">15 lipca 2017 r.</time>
+    </section>
+</footer>
+</body>
+</html>
